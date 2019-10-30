@@ -810,6 +810,26 @@ groups:
       - hi@amycod.es
       - prignanov@vmware.com
 
+  - email-id: k8s-infra-staging-provider-azure@kubernetes.io
+    name: k8s-infra-staging-provider-azure
+    description: |-
+      ACL for staging cloud provider Azure
+    settings:
+      AllowExternalMembers: "true"
+      WhoCanJoin: "INVITED_CAN_JOIN"
+      WhoCanViewMembership: "ALL_MEMBERS_CAN_VIEW"
+      WhoCanViewGroup: "ALL_MEMBERS_CAN_VIEW"
+      WhoCanDiscoverGroup: "ALL_MEMBERS_CAN_DISCOVER"
+      WhoCanInvite: "NONE_CAN_INVITE"
+      WhoCanAdd: "NONE_CAN_ADD"
+      WhoCanApproveMembers: "NONE_CAN_APPROVE"
+      WhoCanModifyMembers: "NONE"
+      WhoCanModerateMembers: "NONE"
+      ReconcileMembers: "true"
+    members:
+      - t-qini@microsoft.com
+      - Pengfei.Ni@microsoft.com
+
   - email-id: k8s-infra-staging-coredns@kubernetes.io
     name: k8s-infra-staging-coredns
     description: |-
